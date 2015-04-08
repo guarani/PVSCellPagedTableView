@@ -13,6 +13,7 @@
 		320D7A591AD38AA2006F8C6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 320D7A581AD38AA2006F8C6C /* Images.xcassets */; };
 		320D7A5C1AD38AA2006F8C6C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 320D7A5A1AD38AA2006F8C6C /* LaunchScreen.xib */; };
 		320D7A681AD38AA2006F8C6C /* TestTableViewScrollZoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320D7A671AD38AA2006F8C6C /* TestTableViewScrollZoomTests.swift */; };
+		32D5CB2C1AD55CE400F5BA78 /* UITableView+CellPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D5CB2B1AD55CE400F5BA78 /* UITableView+CellPaging.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		320D7A611AD38AA2006F8C6C /* TestTableViewScrollZoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTableViewScrollZoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		320D7A661AD38AA2006F8C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		320D7A671AD38AA2006F8C6C /* TestTableViewScrollZoomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewScrollZoomTests.swift; sourceTree = "<group>"; };
+		32D5CB2B1AD55CE400F5BA78 /* UITableView+CellPaging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+CellPaging.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				320D7A581AD38AA2006F8C6C /* Images.xcassets */,
 				320D7A5A1AD38AA2006F8C6C /* LaunchScreen.xib */,
 				320D7A4F1AD38AA2006F8C6C /* Supporting Files */,
+				32D5CB2B1AD55CE400F5BA78 /* UITableView+CellPaging.swift */,
 			);
 			path = TestTableViewScrollZoom;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32D5CB2C1AD55CE400F5BA78 /* UITableView+CellPaging.swift in Sources */,
 				320D7A541AD38AA2006F8C6C /* ViewController.swift in Sources */,
 				320D7A521AD38AA2006F8C6C /* AppDelegate.swift in Sources */,
 			);
@@ -407,6 +411,7 @@
 				320D7A6D1AD38AA2006F8C6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		320D7A6E1AD38AA2006F8C6C /* Build configuration list for PBXNativeTarget "TestTableViewScrollZoomTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				320D7A701AD38AA2006F8C6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
