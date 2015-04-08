@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate {
-    let cellHeight: CGFloat = 50.0
+    let cellHeight: CGFloat = 150.0
     var contentInsetY: CGFloat = 0
     @IBOutlet weak var constraint: NSLayoutConstraint!
     @IBOutlet weak var tableView: UITableView!
